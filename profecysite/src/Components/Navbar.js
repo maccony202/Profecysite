@@ -7,7 +7,7 @@ const Navbar = () => {
     const handleClick = () => setClick(!click)
     return(
         <nav className="navbar">
-            <a className="logo" href="http//:react.org"><h4>Logo</h4></a>
+            <Link to='/' className="logo">Logo</Link>
             <ul className={click ? "nav-menu active": "nav-menu"}>
                 <li className="nav-item">
                 <Link to ="/" activeClassName="active" className="nav-links" onClick={handleClick}>
