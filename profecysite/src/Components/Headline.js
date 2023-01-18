@@ -23,7 +23,7 @@ const Headline = () => {
       </Row>
       <Col sm={12}>
         <h1 className="text-center pt-5">WHAT WE DO</h1>
-        <hr/>
+        <hr className="line1"/>
         <div className="d-flex  text-primary p-3 cards">
           <Card className="mx-3">
           <p>Since Bootstrap is developed to be mobile first, 

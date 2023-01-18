@@ -74,6 +74,12 @@
   }
 }
 
+.line1 {
+  width: 10%;
+  height: 5px solid red;
+  margin-left: 45%;
+}
+
 @media (max-width: 768px) {
   .cards{
     display: flex;
