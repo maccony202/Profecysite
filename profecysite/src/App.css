@@ -74,12 +74,6 @@
   }
 }
 
-.line1 {
-  width: 10%;
-  height: 5px solid red;
-  margin-left: 45%;
-}
-
 @media (max-width: 768px) {
   .cards{
     display: flex;
@@ -88,4 +82,25 @@
     width: 70%;
     margin: 5% 15%;
   }
+}
+
+.line1 {
+  width: 10%;
+  margin-left: 45%;
+}
+
+.quicklinks ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: brown;
+}
+
+.social-links ul {
+  list-style: none;
+}
+
+.findus ul {
+  list-style: none;
 }
