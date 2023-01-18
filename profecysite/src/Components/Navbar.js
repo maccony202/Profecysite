@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import {Link} from 'react-router-dom';
-import {FaBars, FaTimes} from 'react-icons/fa'
-import './Navbar.css'
+import {FaBars, FaTimes} from 'react-icons/fa';
+import './Navbar.css';
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click)
+    const handleClick = () => setClick(!click);
     return(
-        <nav className="navbar">
+        <header>
+             <nav className="navbar">
             <Link to='/' className="logo">Logo</Link>
             <ul className={click ? "nav-menu active": "nav-menu"}>
                 <li className="nav-item">
@@ -34,6 +35,8 @@ const Navbar = () => {
                 {click ? <FaTimes /> : <FaBars />}
             </div>
         </nav>
+        </header>
+       
     )
 }
 

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
 }
@@ -35,5 +41,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.justify-content-lg-center {
+  background-color: #204f1d;
+  color: #ffff;
+}
+
+.fam-med {
+  animation: fam-med-spin 25s linear infinite;
+}
+
+.pop-med {
+  height: 250px;
+}
+
+.sem {
+  color: brown;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@keyframes fam-med-spin {
+  from {
+    transform: rotateY(0deg);
+  }to {
+    transform: rotateY(360deg);
+  }
+}
+
+.clock {
+  width: 25px;
+  height: auto;
 }
 
