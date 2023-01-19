@@ -4,8 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import doc1 from './images/doc1.jpeg'
-import Card from 'react-bootstrap/Card';
+// import Card from 'react-bootstrap/Card';
 import {Link} from 'react-router-dom';
+import WhatWeDo from "./WhatWedo";
 
 const Headline = () => {
   const [click, setClick] = useState(false);
@@ -28,45 +29,22 @@ const Headline = () => {
         <h1 className="text-center pt-5">WHAT WE DO</h1>
         <hr className="line1"/>
         <div className="d-flex  text-primary p-3 cards">
-          <Card className="mx-3">
-            <strong className="text-dark text-center fs-4 p-1">Laboratory Services</strong>
-            <hr/>
-          <p className="p-2">Since Bootstrap is developed to be mobile first, 
-          we use a handful of media queries to create sensible 
-          breakpoints for our layouts and interfaces. These breakpoints are 
-          mostly based on minimum viewport widths and allow 
-          us to scale up elements as the viewport changes.</p>
-          </Card>
-        
-         <Card className="mx-3">
-         <strong className="text-dark text-center fs-4 p-1">UltraSound Scan Services</strong>
-            <hr/>
-         <p className="p-2">Since Bootstrap is developed to be mobile first, 
-          we use a handful of media queries to create sensible 
-          breakpoints for our layouts and interfaces. These breakpoints are 
-          mostly based on minimum viewport widths and allow 
-          us to scale up elements as the viewport changes.</p>
-         </Card>
-         
-         <Card className="mx-3">
-         <strong className="text-dark text-center fs-4 p-1">Physioterapy</strong>
-            <hr/>
-         <p className="p-2">Since Bootstrap is developed to be mobile first, 
-          we use a handful of media queries to create sensible 
-          breakpoints for our layouts and interfaces. These breakpoints are 
-          mostly based on minimum viewport widths and allow 
-          us to scale up elements as the viewport changes.</p>
-         </Card>
-
-         <Card className="mx-3">
-         <strong className="text-dark text-center fs-4 p-1">Machine Treatement</strong>
-            <hr/>
-         <p className="p-2">Since Bootstrap is developed to be mobile first, 
-          we use a handful of media queries to create sensible 
-          breakpoints for our layouts and interfaces. These breakpoints are 
-          mostly based on minimum viewport widths and allow 
-          us to scale up elements as the viewport changes.</p>
-         </Card>
+          <WhatWeDo
+            title = "Laboratory Services"
+            details = "We run all kinds of lab test at our hospital including sickling" 
+          />
+          <WhatWeDo
+            title = "UltraSound Scan Services"
+            details = "We run scan for pregnant women and people with abdominal pain and prostate problems" 
+          />
+          <WhatWeDo
+            title = "Physioterapy"
+            details = "We offer high value teraputic programmes for our client" 
+          />
+          <WhatWeDo
+            title = "Machine Treatement"
+            details = "We run all kinds of lab test at our hospital including sickling" 
+          />
         </div>
         </Col>
 
