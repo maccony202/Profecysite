@@ -18,7 +18,7 @@ function AboutComponent() {
         
       <Row>
         <div className="d-flex px-sm-5 mx-md-0 flex-md-row justify-content-md-center  mt-3">
-        <img className="rounded-circle col-xs-1 col-sm-1 row-sm-1 col-md-4 awar1" src={doc1} alt="award"/>
+        <img className="rounded-circle awar1" src={doc1} alt="award"/>
         <p className="m-5 text-left w-25">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
         </div>
       </Row>

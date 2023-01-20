@@ -113,3 +113,13 @@ html {
   width: 250px;
   height: auto;
 }
+
+@media (max-width: 567px){
+  .awar1 {
+    width: 150px;
+    height: 150px;
+  }
+
+}
+
+
