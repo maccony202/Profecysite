@@ -55,7 +55,7 @@ html {
   background-size: cover;
 }
 
-.rounded-circle {
+.doc {
   animation: fam-med-spin 25s linear infinite;
 }
 
@@ -107,4 +107,9 @@ html {
 
 .findus ul {
   list-style: none;
+}
+
+.awar1 {
+  width: 250px;
+  height: auto;
 }

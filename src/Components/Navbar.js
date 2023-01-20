@@ -11,22 +11,22 @@ const Navbar = () => {
             <Link to='/' className="logo">Logo</Link>
             <ul className={click ? "nav-menu active": "nav-menu"}>
                 <li className="nav-item">
-                <Link to ="/" activeClassName="active" className="nav-links" onClick={handleClick}>
+                <Link to ="/"  className="nav-links" onClick={handleClick}>
                      Home
                 </Link>
                 </li>
                 <li className="nav-item">
-                <Link to ="/about" activeClassName="active" className="nav-links" onClick={handleClick}>
+                <Link to ="/about"  className="nav-links" onClick={handleClick}>
                         About
                 </Link>
                 </li>
                     <li className="nav-item">
-                <Link to ="/products" activeClassName="active" className="nav-links" onClick={handleClick}>
+                <Link to ="/products"  className="nav-links" onClick={handleClick}>
                         Products
                 </Link>
                 </li>
                     <li className="nav-item">
-                <Link to ="/contact" activeClassName="active" className="nav-links" onClick={handleClick}>
+                <Link to ="/contact"  className="nav-links" onClick={handleClick}>
                         Contact
                 </Link>
                 </li>

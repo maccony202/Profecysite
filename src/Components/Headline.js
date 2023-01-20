@@ -21,7 +21,7 @@ const Headline = () => {
       <Container fluid>
       <Row>
         <Row lg={3} sm={1} md={2} className="justify-content-lg-center mx-0 mt-5 w-100 p-3">
-          <img className="rounded-circle mt-5" src={doc1} alt="accra"/>
+          <img className="rounded-circle mt-5 doc" src={doc1} alt="accra"/>
            <Col data-aos="fade-up" className="mt-5">
              <h3 className="p-3 bg-danger">HOSPITAL PROVIDING</h3>
              <h3>TOTAL <span className="text-danger w-100">HEALTHCARE</span> SOLUTION</h3>
