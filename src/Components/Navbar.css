@@ -13,7 +13,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: brown;
+    background-color: rgb(41, 109, 29);
     color: white;
     align-items: center;
     height: 75px;
@@ -93,7 +93,7 @@ header {
     }
 
     .nav-menu.active {
-        background: brown;
+        background: rgb(41, 109, 29);
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
