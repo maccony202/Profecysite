@@ -16,12 +16,33 @@ function AboutComponent() {
         </Row>
             </Row>
         
-      <Row>
-        <div className="d-flex px-sm-5 mx-md-0 flex-md-row justify-content-md-center  mt-3">
-        <img className="rounded-circle awar1" src={doc1} alt="award"/>
-        <p className="m-5 text-left w-25">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+        <section>
+        <div>
+        <h2 className="text-center text-dark fs-20 fw-500">Achievements</h2>
+         <hr className="w-100"/>
         </div>
-      </Row>
+      <div>
+      <div data-aos="fade-left" className="d-flex justify-content-center">
+        <img className="rounded-circle awar1" src={doc1} alt="award"/>
+        <p className="w-25 mx-3 my-5">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+        </div>
+        <div data-aos="fade-right" className="d-flex justify-content-center">
+        <img className="rounded-circle awar1" src={doc1} alt="award"/>
+        <p className="w-25 mx-3 my-5">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+        </div>
+        <div data-aos="fade-down" className="d-flex justify-content-center">
+        <img className="rounded-circle awar1" src={doc1} alt="award"/>
+        <p className="w-25 mx-3 my-5">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+        </div>
+        <div data-aos="fade" className="d-flex justify-content-center">
+        <img className="rounded-circle awar1" src={doc1} alt="award"/>
+        <p className="w-25 mx-3 my-5">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+        </div>
+      </div>
+      
+        
+        </section>
+        
 
         </Container>
     )
