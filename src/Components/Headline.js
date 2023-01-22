@@ -25,7 +25,7 @@ const Headline = () => {
            <Col data-aos="fade-up" className="mt-5">
              <h3 className="p-3 bg-success">HOSPITAL PROVIDING</h3>
              <h3>TOTAL <span className="text-danger w-100">HEALTHCARE</span> SOLUTION</h3>
-             <p className="text-dark">We at Medicare are always fully focused on helping your to overcame any surgeon procedure with great commitment and easy recovery.</p>
+             <p className="text-dark">We at Profecy are always fully focused on helping your to overcame any Chronic Illness with great commitment and easy recovery.</p>
            </Col>
         </Row>
         

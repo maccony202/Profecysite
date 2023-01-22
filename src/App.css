@@ -86,6 +86,11 @@ html {
     width: 70%;
     margin: 5% 15%;
   }
+
+  .con-cards {
+    margin: 20px;
+  }
+
 }
 
 .line1 {
@@ -121,6 +126,18 @@ html {
   }
 
 }
+
+@media (min-width: 768px) {
+  .con-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+
+
+
+
 
 
 

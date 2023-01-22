@@ -8,7 +8,7 @@ const Navbar = () => {
     return(
         <header>
              <nav className="navbar">
-            <Link to='/' className="logo">Logo</Link>
+            <Link to='/' className="logo">Profecy</Link>
             <ul className={click ? "nav-menu active": "nav-menu"}>
                 <li className="nav-item">
                 <Link to ="/"  className="nav-links" onClick={handleClick}>

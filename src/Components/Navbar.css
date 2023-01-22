@@ -24,7 +24,7 @@ header {
     font-size: 30px;
     color: white;
     text-decoration: none;
-    margin-left: 10px;
+    margin: 5px 20px;
     animation: logo-spin 20s linear infinite;
 }
 
