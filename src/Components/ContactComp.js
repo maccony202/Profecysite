@@ -5,6 +5,7 @@ import Col  from "react-bootstrap/Col";
 import { Card } from "react-bootstrap";
 import { useState } from "react";
 import {Link} from 'react-router-dom';
+import SiteMap from "./MapComp";
 
 const ContactComponent = () => {
     const [click, setClick] = useState(false);
@@ -45,6 +46,7 @@ const ContactComponent = () => {
                        </div>
                     </Card>
                 </div>
+                <SiteMap />
                 <Row data-aos="fade-up" className="footer mt-5" sm={1} md={2} lg={4}>
         <div className="text-light pt-5">
             <h3>HEALTHCARE</h3>
